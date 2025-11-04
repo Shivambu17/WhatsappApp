@@ -10,7 +10,65 @@
             margin:0;
             padding:0;
             box-sizing: border-box;
+            font-family: 'Segoe UI',helvetica,Arial, Helvetica, sans-serif;
 
+        }
+        body{
+            background-color: #128c7e;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .login-container{
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            text-align: center;
+        
+        }
+
+        .logo{
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        h1{
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        p{
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-form input{
+            padding: 15px;
+            border: none;
+            border-radius: 20px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            outline: none;
+        }
+        .login-button{
+            padding: 15px;
+            background-color: #25d366;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .login-button:hover{
+            background-color: #20b858;
         }
     </style>
 </head>
@@ -22,7 +80,7 @@
 
         <form class="login-form">
            <input type="text" placeholder="your name" required >
-           <a href="" class="login-button">Login</a>
+           <a href="contacts.html" class="login-button">Login</a>
         </form>
 
     </div>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - page</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', helvetica, Arial, Helvetica, sans-serif;
+
+        }
+
+        body{
+            background-color: #e5ddd5;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 100%;
+            max-width: 400px;
+            height: 600px;
+            background-color: white;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+.header{
+    background-color: #128c7e;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header h2{
+    font-size: 18px;
+}
+.user-info{
+    font-size: 14px;
+}
+.contact-list{
+    flex:1;
+    overflow: auto;
+}
+.contact{
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: inherit;
+}
+.contact:hover{
+    background-color: #f5f5f5;
+}
+.contact-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #554;
+}
+
+.contact-info{
+    flex: 1;
+}
+
+.contact-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.last-message{
+    color: #888;
+    font-size: 14px;
+}
+.logout-link{
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #128c7e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Whatsapp</h2>
+            <div class="user-info">User</div>
+
+        </div>
+        <div class="contact-list">
+            <a href="" class="contact">
+                <div class="contact-avatar">C</div>
+                <div class="contact-info">
+                    <div class="contact-name">Collins Malaka</div>
+                    <div class="last-message">Did you pass information system?</div>
+                </div>
+            </a>
+
+             <a href="" class="contact">
+                <div class="contact-avatar">N</div>
+                <div class="contact-info">
+                    <div class="contact-name">Ntando Cele</div>
+                    <div class="last-message">What is your girlfriend name?</div>
+                </div>
+            </a>
+
+             <a href="" class="contact">
+                <div class="contact-avatar">P</div>
+                <div class="contact-info">
+                    <div class="contact-name">Percy</div>
+                    <div class="last-message">Final she is now i sidechick</div>
+                </div>
+            </a>
+
+             <a href="" class="contact">
+                <div class="contact-avatar">T</div>
+                <div class="contact-info">
+                    <div class="contact-name">Tshegofatso Chilwane</div>
+                    <div class="last-message">why are you single?</div>
+                </div>
+            </a>
+
+             <a href="" class="contact">
+                <div class="contact-avatar">W</div>
+                <div class="contact-info">
+                    <div class="contact-name">Wandy Nomvela</div>
+                    <div class="last-message">I passed Development with 98%</div>
+                </div>
+            </a>
+    </div>
+    <a href="login.html" class="logout-link">Logout</a>
+    </div>
+</body>
+</html>
